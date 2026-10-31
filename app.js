@@ -1,4 +1,4 @@
-console.log("Initializing Payment Gateway...");
+
 
 const paymentConfig = {
     apiKey: "pk_test_sample_123456789",
