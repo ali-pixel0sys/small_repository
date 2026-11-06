@@ -7,10 +7,7 @@ const paymentConfig = {
 };
 
 function processPayment(amount, customerEmail) {
-    if (!amount || amount <= 0) {
-        console.error("Invalid transaction amount.");
-        return false;
-    }
+    
 
     console.log(`Processing PKR ${amount} for ${customerEmail}...`);
 
